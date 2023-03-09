@@ -1,13 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Raleway', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior:smooth;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.container {
+  max-width: 1240px;
+  margin: auto;
+}
+
+.btn {
+  color: #fff;
+  padding: 12px 24px;
+  background-image: linear-gradient(45deg, #e20917 0%, #e55760 100%);
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: .4s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #e20917;
+  padding: 12px 24px;
+  background-image: none;
+  border: 1px solid #e20917;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.call {
+  background-image: linear-gradient(45deg, #15c098 0%, #4dcbae 100%);
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: .4s;
+  cursor: pointer;
+}
+
+.call:hover {
+  background-image: none;
+  color: #15c098;
+  padding: 12px 24px;
+  border: 1px solid #15c098;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.btn:active {
+  transform: translate(4px);
+  box-shadow: 0px 0px 1px rgba(0,0,0,0.2);
+  border-bottom: none;
 }
