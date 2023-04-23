@@ -8,8 +8,7 @@ const Hero = () => {
         <div className='content'>
             <h1>Find the perfect place</h1>
             <p className='search-text'>The largest selection of luxury apartments in Maltepe</p>
-        </div>
-        
+        </div>       
     </div>
   )
 }
